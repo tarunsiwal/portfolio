@@ -174,6 +174,7 @@ body {
   background: rgb(81 81 81 / 50%);
 } */
 @media (max-width: 768px) {
+  .sectionHeading{width: 100% !important;}
   .nav-link{
     padding-bottom: 1em;
   }
@@ -245,6 +246,10 @@ body {
     display: flex !important;
     justify-content: center;
     width: 100%;
+  }
+  .workdemo .col-md-6{
+    display: flex;
+    justify-content: center;
   }
   .contact-form-container .row {
     flex-direction: column;
@@ -608,4 +613,13 @@ body {
 }
 .content-container {
   padding: 2em;
+}
+
+.sticky-heading {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 30%;
+  height: 70vh;
+  z-index: 10;
+  padding: 10px 0;
 }

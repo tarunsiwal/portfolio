@@ -6,7 +6,7 @@ const Downloadresume = () => {
   // Function will execute on click of button
   const onButtonClick = () => {
     // Replace the file ID in the URL with "uc"
-    const fileID = "1pvfK85Waq1GhEhY3js3hxJE19-fJ6afC";
+    const fileID = "1ppu6kMiFkuxlr11e0gBsmrJrRdu-QUFl";
     const downloadURL = `https://drive.google.com/uc?id=${fileID}`;
 
     // Create an anchor element
