@@ -43,9 +43,9 @@ export const EmailForm = () => {
     <div className="contact-form-container">
       <div className="row">
         <div className="col dark">
-          <span className="sectionHeading">
-            Send me a Email <br />
-            <span>Contact Me</span>
+          <span className="sectionHeading mb-4">
+          Let's Get in Touch<br />
+            <span>Reach Out to Me</span>
           </span>
           <img src={AstronautSelfie} alt="Astronaut Selfie" />
         </div>

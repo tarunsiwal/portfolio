@@ -23,8 +23,8 @@ const Header = () => {
     setHover(false);
   };
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg App-header">
+    <header id='top'>
+      {/* <nav className="navbar navbar-expand-lg App-header">
         <div className="container">
           <a
             className="navbar-brand"
@@ -67,7 +67,49 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+
+      <div class="pos-f-t ">
+      <nav class="navbar navbar-dark ">
+      <img
+              src={sign}
+              style={{
+                ...style.sign,
+                ...(hover && style.signHover), // Apply hover style if hover state is true
+              }}
+              alt="tarunpanchal"
+            />
+            <ul className="navbar-nav ms-auto nav-link-desktop">
+              <li className="nav-item">
+                <a className="nav-link" href="#workdemo">
+                  Explore Work
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">
+                  Let's Connect ✌
+                </a>
+              </li>
+            </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+          <a className="nav-link" href="#workdemo">
+                  Explore Work
+                </a>
+            <a className="nav-link" href="#contact">
+                  Let's Connect ✌
+                </a>
+          </div>
+        </div>
+        
+      </div>
+
+
     </header>
   );
 };

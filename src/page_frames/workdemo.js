@@ -22,8 +22,8 @@ function workdemo() {
       <div className="row">
         <div className="">
           <span className="sectionHeading">
-            Explore the<br />
-            <span className="darktext">Projects</span>
+          Dive into My Work<br />
+            <span className="darktext">Explore What I've Created</span>
           </span>
         </div>
         <div className="row">

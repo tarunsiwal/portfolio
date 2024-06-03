@@ -35,17 +35,22 @@ function App() {
       <Workdemo/>
       <Contact/>
       <Footer />
+      {/*  
       <div style={style}>
         <iframe 
         src="https://giphy.com/embed/2xDcf5tkCRKqqE15JM" 
         width="100%" 
         height="100%" 
-        style={{ position: 'absolute' }} // Adjusted style attribute
+        style={{ position: 'absolute' }}
         frameBorder="0" 
         className="giphy-embed" 
         allowFullScreen>
         </iframe>
       </div>
+      */}
+      {/* <a href="#top" className="gototop"><i class="fa-solid fa-chevron-up"></i></a> */}
+      
+
     </div>
   );
 }

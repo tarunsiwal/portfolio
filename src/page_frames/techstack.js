@@ -6,9 +6,9 @@ const TechStack = () => {
     <section className="techstack">
       <div className="container ">
         <div className="row">
-          <span className="sectionHeading">
-          <span>Tech Stack</span><br/>
-            See what's in it 
+          <span className="sectionHeading w-50">
+          My Digital Toolkit<br/>
+          <span>Discover My Skills</span>
           </span>
         </div>
         <div className="row">
