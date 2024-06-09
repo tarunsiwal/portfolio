@@ -173,7 +173,15 @@ body {
   height: 50px;
   background: rgb(81 81 81 / 50%);
 } */
+
+/* mobile view */
 @media (max-width: 768px) {
+  .achievements {
+    padding-top: 0;
+}
+  .achievements .card-img-left {
+    width: 100%;
+        margin-bottom: 1em;}
   .sectionHeading {
     width: 100% !important;
   }
