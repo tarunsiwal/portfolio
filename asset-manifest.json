@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.37bad086.css",
-    "main.js": "/portfolio/static/js/main.cb7820eb.js",
+    "main.js": "/portfolio/static/js/main.ce5af123.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/bgstars2.png": "/portfolio/static/media/bgstars2.1e570a34feb47d52054d.png",
     "static/media/astronaut-selfie.png": "/portfolio/static/media/astronaut-selfie.e07b3719485702204171.png",
     "static/media/brandname.png": "/portfolio/static/media/brandname.ff62730ac2ab8bc98e4a.png",
     "static/media/as1.png": "/portfolio/static/media/as1.08f72f88765d180ad103.png",
+    "static/media/desktopmockup.02.png": "/portfolio/static/media/desktopmockup.02.e270eac12e35bb9d48d4.png",
     "static/media/artificial-intelligence-fundamentals.png": "/portfolio/static/media/artificial-intelligence-fundamentals.4e8b5a25e662e2ccf4c0.png",
     "static/media/frontend.png": "/portfolio/static/media/frontend.9c7af8b8b0d73b538a40.png",
     "static/media/backend.png": "/portfolio/static/media/backend.6d86a5962b6eaa49bd65.png",
     "static/media/version cnt.png": "/portfolio/static/media/version cnt.97644950d706e93d9fc5.png",
     "static/media/uiux.png": "/portfolio/static/media/uiux.277d3dde08af19953333.png",
+    "static/media/mobilemockup.01.png": "/portfolio/static/media/mobilemockup.01.681bdb61f005145aebcb.png",
     "static/media/mssql.svg": "/portfolio/static/media/mssql.6abb9456f83b3495c0c427bdc9cda800.svg",
     "static/media/classroom.png": "/portfolio/static/media/classroom.a70dd30545cfaa2ef50d.png",
     "static/media/postman.svg": "/portfolio/static/media/postman.f3b1bf13c8401d22131c4c0d0e0232a3.svg",
@@ -40,11 +42,11 @@
     "static/media/hostinger.svg": "/portfolio/static/media/hostinger.31956a29dcc01f6ac8dfc25a4fdaa205.svg",
     "index.html": "/portfolio/index.html",
     "main.37bad086.css.map": "/portfolio/static/css/main.37bad086.css.map",
-    "main.cb7820eb.js.map": "/portfolio/static/js/main.cb7820eb.js.map",
+    "main.ce5af123.js.map": "/portfolio/static/js/main.ce5af123.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37bad086.css",
-    "static/js/main.cb7820eb.js"
+    "static/js/main.ce5af123.js"
   ]
 }
