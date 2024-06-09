@@ -3,7 +3,7 @@ import SliderSection from "../components/UI/SliderSection"
 
 const TechStack = () => {
   return (
-    <section className="techstack">
+    <section className="techstack white-bg">
       <div className="container ">
         <div className="row">
           <span className="sectionHeading w-50">

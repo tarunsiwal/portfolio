@@ -10,6 +10,7 @@ import Techstack from "./page_frames/techstack"; // Adjusted import
 import bg from "./assets/images/dot.png"
 import BackgroundImage from "./components/UI/BackgroundImage";
 import Contact from "./page_frames/contact"
+import Achievements from "./page_frames/achievements";
 
 function App() {
   const navLinks = [
@@ -32,24 +33,10 @@ function App() {
       <Firstfold/>
       <About />
       <Techstack/>
+      <Achievements />
       <Workdemo/>
       <Contact/>
       <Footer />
-      {/*  
-      <div style={style}>
-        <iframe 
-        src="https://giphy.com/embed/2xDcf5tkCRKqqE15JM" 
-        width="100%" 
-        height="100%" 
-        style={{ position: 'absolute' }}
-        frameBorder="0" 
-        className="giphy-embed" 
-        allowFullScreen>
-        </iframe>
-      </div>
-      */}
-      {/* <a href="#top" className="gototop"><i class="fa-solid fa-chevron-up"></i></a> */}
-      
 
     </div>
   );
