@@ -81,6 +81,11 @@ const Header = () => {
               alt="tarunpanchal"
             />
             <ul className="navbar-nav ms-auto nav-link-desktop">
+            <li className="nav-item">
+                <a className="nav-link" href="#achievements">
+                Achievements
+                </a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link" href="#workdemo">
                   Explore Work
@@ -98,6 +103,9 @@ const Header = () => {
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="p-4">
+          <a className="nav-link" href="#achievements">
+          Achievements
+                </a>
           <a className="nav-link" href="#workdemo">
                   Explore Work
                 </a>

@@ -16,7 +16,7 @@ const Achievements = () => {
     domain.`,
     img:img,}
   return (
-    <section className="achievements white-bg">
+    <section className="achievements white-bg" id="achievements">
       <div className="container">
         <div className="row">
           <span className="sectionHeading w-50">
