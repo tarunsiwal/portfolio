@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.10508ff3.css",
-    "main.js": "/portfolio/static/js/main.85c5c5a0.js",
+    "main.css": "/portfolio/static/css/main.37bad086.css",
+    "main.js": "/portfolio/static/js/main.cb7820eb.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/bgstars2.png": "/portfolio/static/media/bgstars2.1e570a34feb47d52054d.png",
     "static/media/astronaut-selfie.png": "/portfolio/static/media/astronaut-selfie.e07b3719485702204171.png",
     "static/media/brandname.png": "/portfolio/static/media/brandname.ff62730ac2ab8bc98e4a.png",
     "static/media/as1.png": "/portfolio/static/media/as1.08f72f88765d180ad103.png",
+    "static/media/artificial-intelligence-fundamentals.png": "/portfolio/static/media/artificial-intelligence-fundamentals.4e8b5a25e662e2ccf4c0.png",
     "static/media/frontend.png": "/portfolio/static/media/frontend.9c7af8b8b0d73b538a40.png",
     "static/media/backend.png": "/portfolio/static/media/backend.6d86a5962b6eaa49bd65.png",
     "static/media/version cnt.png": "/portfolio/static/media/version cnt.97644950d706e93d9fc5.png",
@@ -38,12 +39,12 @@
     "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.9914e7f7368dbafd7008f77e48c8c79e.svg",
     "static/media/hostinger.svg": "/portfolio/static/media/hostinger.31956a29dcc01f6ac8dfc25a4fdaa205.svg",
     "index.html": "/portfolio/index.html",
-    "main.10508ff3.css.map": "/portfolio/static/css/main.10508ff3.css.map",
-    "main.85c5c5a0.js.map": "/portfolio/static/js/main.85c5c5a0.js.map",
+    "main.37bad086.css.map": "/portfolio/static/css/main.37bad086.css.map",
+    "main.cb7820eb.js.map": "/portfolio/static/js/main.cb7820eb.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10508ff3.css",
-    "static/js/main.85c5c5a0.js"
+    "static/css/main.37bad086.css",
+    "static/js/main.cb7820eb.js"
   ]
 }
