@@ -69,18 +69,6 @@ body {
 .App-link {
   color: #61dafb;
 }
-/* #b296aa,
-#8f94bb,
-#8ebb9c,
-#426658,
-#181726 */
-
-/* #fc73ae,
-#ff59a2,
-#ff59b9,
-#ff59c4,
-#b23e89, */
-
 .multi-color-text span {
   display: inline-block;
   background-image: linear-gradient(
@@ -129,10 +117,6 @@ body {
   line-height: 1.2;
 }
 
-/* .about {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 1rem;
-} */
 .about {
   background-size: cover;
   background-position: center;
@@ -162,26 +146,15 @@ body {
 .navbar-nav a {
   color: #ffffff;
 }
-/* .gototop {
-  position: sticky;
-  bottom: 1em;
-  float: right;
-  right: 1em;
-  padding: 1em;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background: rgb(81 81 81 / 50%);
-} */
-
 /* mobile view */
 @media (max-width: 768px) {
   .achievements {
-    padding-top: 0;
-}
+    padding-top: 0 !important;
+  }
   .achievements .card-img-left {
-    width: 100%;
-        margin-bottom: 1em;}
+    width: 100% !important;
+    margin-bottom: 1em !important;
+  }
   .sectionHeading {
     width: 100% !important;
   }
@@ -642,7 +615,7 @@ body {
   padding: 0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.achievements  .card-img-left {
+.achievements .card-img-left {
   margin: auto;
   display: block;
   border-radius: 6px;
@@ -664,15 +637,17 @@ body {
   color: #0d6efd;
   text-decoration: underline;
 }
-.achievements .card-body p{margin: 0;}
+.achievements .card-body p {
+  margin: 0;
+}
 .achievements .card-body span {
   margin-bottom: 1rem;
   display: block;
 }
-.achievementCardHolder{
+.achievementCardHolder {
   padding: 4em 0;
 }
-.card-btn{
+.card-btn {
   display: flex;
   gap: 1em;
   justify-content: end;
