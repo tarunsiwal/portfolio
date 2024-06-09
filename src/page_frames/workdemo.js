@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Brandname from "../assets/images/brandname.png";
 import Classroom from "../assets/images/classroom.png";
-
+import healthcare from "../assets/images/mobilemockup.01.png"
+import desktopmockup from "../assets/images/desktopmockup.02.png"
 
 function WorkDemo() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -98,7 +99,7 @@ function WorkDemo() {
               >
                 <img
                   class="card-img-top"
-                  src="/portfolio/static/media/mobilemockup.01.png"
+                  src={healthcare}
                   alt="healthcare"
                 />
               </a>
@@ -127,7 +128,7 @@ function WorkDemo() {
               >
                 <img
                   class="card-img-top"
-                  src="/portfolio/static/media/desktopmockup.02.png"
+                  src={desktopmockup}
                   alt="Skin clinic"
                 />
               </a>

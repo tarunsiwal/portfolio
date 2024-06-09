@@ -1,7 +1,5 @@
 import React from "react";
 import AutoTypeText from "../components/AutoTypeText";
-import BackgroundVideo from "../components/BackgroundVideo";
-import YouTubePlayer from "../components/YouTubePlayer";
 import BackgroundImage from "../components/UI/BackgroundImage";
 import bg from "../assets/images/dot.png";
 import Buttongrow from "../components/UI/Buttongrow";

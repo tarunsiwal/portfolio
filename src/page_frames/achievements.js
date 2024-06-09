@@ -14,7 +14,7 @@ const Achievements = () => {
     the job outlook for AI-related fields and is familiar with
     the skills required for success in various roles within the
     domain.`,
-    img:"/portfolio/static/media/artificial-intelligence-fundamentals.png",}
+    img:img,}
   return (
     <section className="achievements white-bg">
       <div className="container">
