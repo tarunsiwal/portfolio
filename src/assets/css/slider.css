@@ -1,0 +1,96 @@
+/* Add some basic styling */
+.tab {
+  display: flex;
+  width: 90%;
+  gap: 1em;
+  margin: auto;
+  padding: 4em 0;
+}
+
+.tab .tablinks {
+  background-color: inherit;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  scale: 1.05;
+}
+
+.tab button.active {
+  background-color: #e5f0ff;
+}
+.content-container .active {
+  display: block;
+}
+.content-container .active ul {
+  color: #000;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.logoImageContainer img {
+  width: 10%;
+  animation: circlemovements 1s ease-in-out;
+}
+@keyframes circlemovements {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin: 5px 0;
+}
+
+.illustrationCol {
+  display: flex;
+  justify-content: center;
+}
+.illustrationColIMG {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .logoImageContainer img {
+    width: 30%;
+  }
+  .tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-form .button-container{flex-direction: column;}
+  .social-media .icon-link {width: 25%;}
+  .social-media {justify-content: center;}
+  .contact-container .child2 .container:nth-child(1) {
+    position: unset;
+    top: 0;
+    padding: 2em 0;
+    box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+}
+.workdemo .row {margin-bottom: 0;}
+}
