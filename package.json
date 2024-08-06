@@ -2,13 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tarunsiwal.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.1",
     "@sendgrid/mail": "^8.1.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -29,10 +29,9 @@
     "web-vitals": "^2.1.4",
     "zlib": "^1.0.5"
   },
-  "homepage": "https://tarunsiwal.github.io/portfolio",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/tarunsiwal/portfolio.git",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
