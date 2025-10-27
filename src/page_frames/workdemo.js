@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import healthcare from "../assets/images/mobilemockup.01.png";
 import desktopmockup from "../assets/images/desktopmockup.02.png";
+import regops from "../assets/images/brandname.png";
+import classroom from "../assets/images/classroom.png";
+import memo from "../assets/images/memo.png";
 
 function WorkDemo() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -28,6 +31,32 @@ function WorkDemo() {
           </span>
         </div>
         <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <a
+                href="https://memo-one.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img class="card-img-top" src={memo} alt="healthcare" />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Memo</h5>
+                <p class="card-text">
+                  Secure task management powered by the MERN stack—complete with
+                  JWT auth, dynamic filtering, and a fully responsive UI.
+                </p>
+                <a
+                  href="https://memo-one.vercel.app"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Memo App
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card">
               <a
