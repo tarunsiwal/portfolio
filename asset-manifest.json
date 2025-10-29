@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5e164fcc.css",
-    "main.js": "/portfolio/static/js/main.396ef0d0.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "main.js": "/portfolio/static/js/main.16b90779.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bgstars2.png": "/portfolio/static/media/bgstars2.1e570a34feb47d52054d.png",
     "static/media/astronaut-selfie.png": "/portfolio/static/media/astronaut-selfie.e07b3719485702204171.png",
+    "static/media/memo.png": "/portfolio/static/media/memo.37d6a3aa64db9627d4f1.png",
+    "static/media/brandname.png": "/portfolio/static/media/brandname.ff62730ac2ab8bc98e4a.png",
     "static/media/as1.png": "/portfolio/static/media/as1.08f72f88765d180ad103.png",
     "static/media/desktopmockup.02.png": "/portfolio/static/media/desktopmockup.02.e270eac12e35bb9d48d4.png",
     "static/media/artificial-intelligence-fundamentals.png": "/portfolio/static/media/artificial-intelligence-fundamentals.4e8b5a25e662e2ccf4c0.png",
@@ -14,6 +16,7 @@
     "static/media/uiux.png": "/portfolio/static/media/uiux.277d3dde08af19953333.png",
     "static/media/mobilemockup.01.png": "/portfolio/static/media/mobilemockup.01.681bdb61f005145aebcb.png",
     "static/media/mssql.svg": "/portfolio/static/media/mssql.30df0cc28112df2533fc46df44cd6e8d.svg",
+    "static/media/classroom.png": "/portfolio/static/media/classroom.a70dd30545cfaa2ef50d.png",
     "static/media/postman.svg": "/portfolio/static/media/postman.66ad461f22040ee7a2a9216dddbd846c.svg",
     "static/media/arroww.png": "/portfolio/static/media/arroww.d2a8e596984aea1eaf98.png",
     "static/media/google.svg": "/portfolio/static/media/google.bffd67ba9b9402c6f93296f26b4ca900.svg",
@@ -40,11 +43,11 @@
     "static/media/hostinger.svg": "/portfolio/static/media/hostinger.a22357dedb3ed89076af67e9955bf4a0.svg",
     "index.html": "/portfolio/index.html",
     "main.5e164fcc.css.map": "/portfolio/static/css/main.5e164fcc.css.map",
-    "main.396ef0d0.js.map": "/portfolio/static/js/main.396ef0d0.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.16b90779.js.map": "/portfolio/static/js/main.16b90779.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e164fcc.css",
-    "static/js/main.396ef0d0.js"
+    "static/js/main.16b90779.js"
   ]
 }
