@@ -38,7 +38,7 @@ function WorkDemo() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img class="card-img-top" src={memo} alt="healthcare" />
+                <img class="card-img-top" src={memo} alt="memo" />
               </a>
               <div class="card-body">
                 <h5 class="card-title">Memo</h5>
